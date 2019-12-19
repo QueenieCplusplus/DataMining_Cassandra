@@ -66,6 +66,12 @@ NoSQL 包含 sharding 擴展性的高度容錯、sort & search 查詢效能、de
     
 # Start Service
 
+    cd <cassandra-dir>/bin
+>>>
+
+     cassandra -f
+>>>     
+
 啟動服務後，資料會建立在預設的 CASSANDRA_HOME 目錄中。
 
 會有兩種資料，一是 data，一是 log。

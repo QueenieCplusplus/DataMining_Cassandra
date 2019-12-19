@@ -17,7 +17,7 @@ NoSQL 的擴展性的高度容錯、查詢效能、分散式作業，Cassandra �
 
 # 詳述 De-Centralization 
 
-
+分散式架構主要特點當然是與主從式不同，它不具有集中管理者，每個 node 或每個 cluster 的功能和權限都是一樣的。
 
 # CQL, Cassandra Query Language 
 

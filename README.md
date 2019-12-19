@@ -36,3 +36,4 @@ NoSQL 的擴展性的高度容錯、查詢效能、分散式作業，Cassandra �
 
 此查詢語言介接 noSQL 和 RDBM 之間，有 Schema-Options 的選項。
 
+

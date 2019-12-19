@@ -10,7 +10,7 @@
 
 # 特點
 
-在 Cassandra 的早期版本，其忠實呈現了 Google BigTable 的資料模型。 無綱要的資料模型代表著，其能動態地定義欄位 Column，但一體兩面的是缺點則暴露在很難決定資料的意義與格式，然而當資料變得很龐大的時候，則體現其擴展性的優點。
+在 Cassandra 的早期版本，其忠實呈現了 Google BigTable 的資料模型。 無綱要 No-Schema 的資料模型代表著，其能動態地定義欄位 Column，但一體兩面的是缺點則暴露在很難決定資料的意義與格式，然而當資料變得很龐大的時候，則體現其擴展性的優點。
 
 # CQL, Cassandra Query Language 
 

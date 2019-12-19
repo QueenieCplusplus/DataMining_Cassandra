@@ -14,6 +14,11 @@
 
 NoSQL 的擴展性的高度容錯、查詢效能、分散式作業，Cassandra 自然是具備的。
 
+
+# 詳述 De-Centralization 
+
+
+
 # CQL, Cassandra Query Language 
 
 也因為這一體兩面的特點，限制了其複雜查詢的表述（表達）能力。基於此緣故，Cassandra 導入自己的查詢語言。

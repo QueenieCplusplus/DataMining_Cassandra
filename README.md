@@ -1,5 +1,7 @@
 # DataMining_Cassandra
-資料分析框架
+C* 鍵值對和欄式結合的分散式料庫系統
+
+在資料庫排行榜「DB-Engines Ranking」中，Cassandra 是 noSQL 資料庫中排名第 2 高的（僅次於MongoDB）。
 
 # 起源
 

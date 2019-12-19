@@ -120,11 +120,14 @@ NoSQL 包含 sharding 擴展性的高度容錯、sort & search 查詢效能、de
 
 # Cqlsh
 
-Test Cluster 是預設給本機主機的單一節點叢集，如下說明了主機已經連結此叢集，如下此腳本完成了展示其本機是否有運行節點和是否找到已經啟動的服務。
+Test Cluster 是預設給本機主機的單一節點叢集，如下說明了主機已經連結此叢集，如下此腳本完成了展示其本機是否有運行節點和是否找到已經啟動的服務。另外，叢集名稱可以修改成為符合應用程式的名稱。
 
     cd <cassandra-dir>/bin/cqlsh
     Connected to Test Cluster at localhost:9042
     cqlsh>
-    
+
+此指令表示命令列指定主機名與埠號。
+
+    bin/cqlsh localhost 9042
     
 

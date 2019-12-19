@@ -84,7 +84,7 @@ NoSQL 包含 sharding 擴展性的高度容錯、sort & search 查詢效能、de
 
 # default Port
 
-    9160
+    9160 ; 9042
 
 # 關鍵字
 
@@ -117,4 +117,14 @@ NoSQL 包含 sharding 擴展性的高度容錯、sort & search 查詢效能、de
 
 分成提供眾多安裝方式的社群、企業提供 Spark 的整合、AWS 打包好的虛擬機映像檔案。
 選擇版本，可以依據自身的開發維運預算，並且考慮版本不同的部署環境、擴展性、穩定性、支援性來做更多的細部考量。
+
+# Cqlsh
+
+Test Cluster 是預設給本機主機的單一節點叢集，如下說明了主機已經連結此叢集，如下此腳本完成了展示其本機是否有運行節點和是否找到已經啟動的服務。
+
+    cd <cassandra-dir>/bin/cqlsh
+    Connected to Test Cluster at localhost:9042
+    cqlsh>
+    
+    
 

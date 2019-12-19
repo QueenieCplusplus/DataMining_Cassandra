@@ -86,6 +86,20 @@ NoSQL 包含 sharding 擴展性的高度容錯、sort & search 查詢效能、de
 
 9160
 
+# 關鍵字
+
+    key
+
+    row
+
+    counter
+
+    JMX
+
+    gossip
+
+    client
+
 # Stop Service
 
     ./stop-server

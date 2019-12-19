@@ -55,6 +55,8 @@ NoSQL 包含 sharding 擴展性的高度容錯、sort & search 查詢效能、de
 (1) 設定 JAVA_HOME 環境變數：
     在環境變數名稱欄位新增 JAVA_HOME
     並在變數值欄位設定安裝 JAVA 或 JDK 或 JVM 的路徑
+    如果是微軟系統，請先安裝 JVM
+    如果是 * Nix 系統，請先安裝 JDK 
 
 (2) 重新啟動終端機，藉以讓系統取得新增的變數，
     倘若環境變數和其值設定無誤，

@@ -44,4 +44,15 @@ NoSQL 包含 sharding 擴展性的高度容錯、sort & search 查詢效能、de
 
 此查詢語言介接 noSQL 和 RDBM 之間，有 Schema-Options 的選項。
 
+# Install on Mac
 
+(1) 設定 JAVA_HOME 環境變數：
+    在環境變數名稱欄位新增 JAVA_HOME
+    並在變數值欄位設定安裝 JAVA 或 JDK 或 JVM 的路徑
+
+(2) 重新啟動終端機，藉以讓系統取得新增的變數，
+    倘若環境變數和其值設定無誤，
+    則可以在啟動 Cassandra 過程中找到 Java
+    在終端機執行 echo %JAVA_HOME% 可以印出環境變數的值。
+
+(3)

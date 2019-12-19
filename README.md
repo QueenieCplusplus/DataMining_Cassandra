@@ -80,11 +80,11 @@ NoSQL 包含 sharding 擴展性的高度容錯、sort & search 查詢效能、de
 
 會有兩種資料，一是 data，一是 log。
 
-另外，也能見到支援此資料庫的工具版本號。
+另外，也能見到支援此資料庫的工具版本號，包含 Thrift API。
 
 # default Port
 
-9160
+    9160
 
 # 關鍵字
 
@@ -98,7 +98,7 @@ NoSQL 包含 sharding 擴展性的高度容錯、sort & search 查詢效能、de
 
     gossip
 
-    client
+    clients
 
 # Stop Service
 

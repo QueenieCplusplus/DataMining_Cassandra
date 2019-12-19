@@ -135,3 +135,9 @@ Test Cluster 是預設給本機主機的單一節點叢集，如下說明了主�
     $CQLSH_HOST 
     $CQLSH_PORT
 
+# Connection Exception: Refused
+
+通常遇到無法連線的原因，可能是因為主機名稱和埠號不正確，此值可以利用 ping 來確認;
+此外，也請確認是否是防火牆所阻擋。
+
+

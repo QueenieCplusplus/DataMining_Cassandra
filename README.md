@@ -129,5 +129,9 @@ Test Cluster 是預設給本機主機的單一節點叢集，如下說明了主�
 此指令表示命令列指定主機名與埠號。
 
     bin/cqlsh localhost 9042
-    
+ 
+當然也可以使用非指令而是直接設定環境變數及其值的方式來指定主機名與埠號。
+
+    $CQLSH_HOST 
+    $CQLSH_PORT
 

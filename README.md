@@ -14,7 +14,7 @@
 
 在 Cassandra 的早期版本，其忠實呈現了 Google BigTable 或是 Hadoop (Wide-Column) 和 AWS DynamoDB (Key) 的資料模型。 無綱要 No-Schema 的資料模型代表著，其能動態地定義欄位 Column，但一體兩面的是缺點則暴露在很難決定資料的意義與格式，然而當資料變得很龐大的時候，則體現其擴展性的優點。
 
-NoSQL 包含 sharding 擴展性的高度容錯、sort & search 查詢效能、de-centralize 分散式作業，Cassandra 自然是具備的。
+NoSQL 包含 sharding 擴展性的高度容錯、sort & search 查詢效能、de-centralize 分散式作業的三大特性，Cassandra 自然是具備的。
 
 
 # 詳述 De-Centralization 

@@ -98,7 +98,7 @@ NoSQL 包含 sharding 擴展性的高度容錯、sort & search 查詢效能、de
 
 主機與叢集中其他節點的溝通介面
 
-    JMX // Java Mgmt Plugin
+    JMX // Java Mgmt Plugin, this interface not allow remote connection.
 
     gossip
 
@@ -113,6 +113,7 @@ NoSQL 包含 sharding 擴展性的高度容錯、sort & search 查詢效能、de
 
     ./stop-server
 
+# Version
 
-
+分成提供眾多安裝方式的社群、企業提供 Spark 的整合、AWS 打包好的虛擬機映像檔案。
 

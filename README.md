@@ -48,6 +48,8 @@ NoSQL 包含 sharding 擴展性的高度容錯、sort & search 查詢效能、de
 
 # Install on Mac
 
+  https://gist.github.com/hkhamm/a9a2b45dd749e5d3b3ae
+
 (1) 設定 JAVA_HOME 環境變數：
     在環境變數名稱欄位新增 JAVA_HOME
     並在變數值欄位設定安裝 JAVA 或 JDK 或 JVM 的路徑

@@ -28,7 +28,7 @@ NoSQL 的擴展性的高度容錯、查詢效能、分散式作業，Cassandra �
 
 # Sharding, 分片 （擴展方式之一）
 
-
+這類架構首先由 eBay 所採用，可以支撐到一天十億次的查詢情境。分片是將資料橫向拆分，座落在不同主機或是叢集中作業，各自獨立作業。
 
 # CQL, Cassandra Query Language 
 

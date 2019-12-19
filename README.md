@@ -55,4 +55,5 @@ NoSQL 包含 sharding 擴展性的高度容錯、sort & search 查詢效能、de
     則可以在啟動 Cassandra 過程中找到 Java
     在終端機執行 echo %JAVA_HOME% 可以印出環境變數的值。
 
-(3)
+(3) 也可以順便設定 Cassandra 的環境變數和其值，
+    有利之後倘若運用 cqlsh 或是 nodetool 等資料庫服務工具帶來便利的享受。

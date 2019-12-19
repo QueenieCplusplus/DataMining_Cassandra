@@ -1,7 +1,7 @@
 # DataMining_Cassandra
-C* 鍵值對和欄式結合的分散式料庫系統，此資料庫是使用 Java 語言。
+又稱為 C*，是鍵值對和欄式結合的分散式料庫系統，此資料庫是使用 Java 語言。
 
-在資料庫排行榜「DB-Engines Ranking」中，Cassandra 是 noSQL 資料庫中排名第 2 高的（僅次於MongoDB）。
+在 DB-Engines 中，Cassandra 是 noSQL 資料庫中排名第 2 高的（僅次於 MongoDB ）。
 
 # 起源
 

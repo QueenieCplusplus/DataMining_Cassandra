@@ -66,8 +66,12 @@ NoSQL 包含 sharding 擴展性的高度容錯、sort & search 查詢效能、de
     
 # Start Service
 
+開啟終端機，並且移至目錄
+
     cd <cassandra-dir>/bin
+    
 >>>
+然後，執行 cassandra -f 指令啟動服務
 
      cassandra -f
 >>>     

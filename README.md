@@ -10,8 +10,12 @@
 
 # 特點
 
-在 Cassandra 的早期版本，其忠實呈現了 Google BigTable 的資料模型。 無綱要 No-Schema 的資料模型代表著，其能動態地定義欄位 Column，但一體兩面的是缺點則暴露在很難決定資料的意義與格式，然而當資料變得很龐大的時候，則體現其擴展性的優點。
+在 Cassandra 的早期版本，其忠實呈現了 Google BigTable 和 AWS DynamoDB 的資料模型。 無綱要 No-Schema 的資料模型代表著，其能動態地定義欄位 Column，但一體兩面的是缺點則暴露在很難決定資料的意義與格式，然而當資料變得很龐大的時候，則體現其擴展性的優點。
+
+NoSQL 的擴展性的高度容錯、查詢效能、分散式作業，Cassandra 自然是具備的。
 
 # CQL, Cassandra Query Language 
 
 也因為這一體兩面的特點，限制了其複雜查詢的表述（表達）能力。基於此緣故，Cassandra 導入自己的查詢語言。
+
+此查詢語言介接 noSQL 和 RDBM

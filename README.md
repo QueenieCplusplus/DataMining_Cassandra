@@ -88,19 +88,25 @@ NoSQL 包含 sharding 擴展性的高度容錯、sort & search 查詢效能、de
 
 # 關鍵字
 
+初始化的資料結構
+
     key
 
     row
 
     counter
 
-    JMX
+主機與叢集中其他節點的溝通介面
+
+    JMX // Java Mgmt Plugin
 
     gossip
 
     clients
     
-    state jump
+    state jump // 節點的啟動狀態
+ 
+ 這些日誌可供持續性的觀察，可紀錄週期性的輸出，包含 memcache 寫入磁碟等等。
 
 # Stop Service
 
